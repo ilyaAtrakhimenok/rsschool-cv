@@ -5,7 +5,7 @@ Email: atrakhimenok24by@gmail.ru
 GitHub: [ilyaAtrakhimenok](https://github.com/ilyaAtrakhimenok)  
 ## Objective
 A begginer front-end developer. I would like to become a professional in this field.
-Also have such qualities as self-motivated, responsible and comminucative.
+Also have such qualities as self-motivation, responsibility and communicativeness .
 ## Skills
 * HTML.
 * CSS.
@@ -13,6 +13,7 @@ Also have such qualities as self-motivated, responsible and comminucative.
 * JavaScript.
 * C++.
 * English  B1(intermediate).
+
 ## Examples of code 
 #### Task from codewars (<font color="#D3D813">6 kyu</font>)
 Generate a valid randomly generated rgb color string.</br> Assume all of them have 6 digits always.
