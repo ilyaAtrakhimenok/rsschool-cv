@@ -1,12 +1,12 @@
 # Ilya Atrakhimenok / Front-end Developer
 ## Contacts
-Telegram: [ilya24by](https://web.telegram.org/#/im?p=@ilya24by)
-Email: atrakhimenok24by@gmail.ru
-GitHub: [ilyaAtrakhimenok](https://github.com/ilyaAtrakhimenok)
+Telegram: [ilya24by](https://web.telegram.org/#/im?p=@ilya24by)  
+Email: atrakhimenok24by@gmail.ru  
+GitHub: [ilyaAtrakhimenok](https://github.com/ilyaAtrakhimenok)  
 ## Objective
 A begginer front-end developer. I would like to become a professional in this field.
 Also have such qualities as self-motivated, responsible and comminucative.
-##Skills
+## Skills
 * HTML.
 * CSS.
 * Bootstrap.
