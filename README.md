@@ -1,1 +1,0 @@
-https://ilyaAtrakhimenok.github.io/rsschool-cv/cv
