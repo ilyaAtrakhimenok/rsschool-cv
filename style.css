@@ -46,126 +46,128 @@ header {
 
 /*----------------ABOUT---------------*/
 
-#about{
-    background-color: rgba(236, 232, 223, 0.986);
+#about {
+  background-color: rgba(236, 232, 223, 0.986);
 }
-.about__wrapper{
-    display: flex;
-    justify-content: center;
-    padding-top:70px;
-    padding-bottom: 70px;
-}
-
-.about__picture{
-    display: block;
-}
-.picture__myPhoto{
-    padding-right: 10px;
-    width: 220px;
-    height: auto;
+.about__wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
-.summary__head, .skills__head,.projects__head{
-    padding-top:30px;
-    padding-bottom: 10px;
-    font-size:28px;
-    font-weight: bold;
+.picture__myPhoto {
+  display: block;
+  width: 220px;
+  height: auto;
+  padding-right: 10px;
 }
-.summary__underHead, .skills__item,.project__name{
-    font-size:22px;
-    font-weight: 600;
-    margin-bottom: 10px;
+
+.summary__head,
+.skills__head,
+.projects__head {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 28px;
+  font-weight: bold;
 }
-.summary__text{
-    font-size:20px;
-    font-style: italic;
+.summary__underHead,
+.skills__item,
+.project__name {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.summary__text {
+  font-size: 20px;
+  font-style: italic;
 }
 /*-----------------------------*/
 
 /*-----------Skills------------*/
 
-#skills{
+#skills {
   background-color: rgb(243, 234, 234);
 }
-.skills__wrapper{
-  padding-top:70px;
+.skills__wrapper {
+  padding-top: 70px;
   padding-bottom: 70px;
-
 }
-.skills__head{
+.skills__head {
   padding-top: 0;
   padding-bottom: 20px;
 }
-.skills__block{
-  padding-left:20px;
+.skills__block {
+  padding-left: 20px;
 }
-.skills__item{
+.skills__item {
   margin-bottom: 15px;
 }
-.crcl{
-  display:inline-block;
-  margin-left:5px;
+.crcl {
+  display: inline-block;
   width: 15px;
   height: 15px;
+  margin-left: 5px;
   border: rgb(5, 5, 236) solid 2px;
   border-radius: 10px;
 }
-.act{
-  background-color:rgb(142, 142, 233);
+.act {
+  background-color: rgb(142, 142, 233);
 }
 /*--------------------------*/
 
 /*----------Projects-------*/
-#projects{
+#projects {
   background-color: rgb(237, 225, 238);
 }
-.projects__wrapper{
-  display:flex;
+.projects__wrapper {
+  display: flex;
   justify-content: space-around;
   padding-bottom: 70px;
 }
-.projects__head{
+.projects__head {
   padding-bottom: 30px;
 }
-.progect__picture{
+.progect__picture {
   width: 300px;
   height: auto;
   margin-top: 10px;
 }
-.progect__picture:hover,.rsschool:hover{
-  scale:101%;
+.progect__picture:hover,
+.rsschool:hover {
+  scale: 101%;
 }
-.tech__blog{
-  list-style-type:circle;
+.tech__blog {
+  list-style-type: circle;
   padding-left: 15px;
 }
 /*-----------------*/
 
 /*------footer------*/
 
-footer{
+footer {
   background-color: lightgray;
 }
-.footer__wrapper{
+.footer__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
   padding-bottom: 20px;
 }
-.footer__block{
+.footer__block {
   display: flex;
-  width: 100px;
   justify-content: space-between;
+  width: 100px;
 }
-.rsschool{
-  width:128px;
+.rsschool {
+  width: 128px;
   height: auto;
 }
-.footer__text{
+.footer__text {
   text-align: center;
   font-size: 12px;
 }
-.footer__link:hover{
+.footer__link:hover {
   scale: 110%;
 }
