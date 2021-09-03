@@ -7,146 +7,120 @@
     <title>CV</title>
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://meyerweb.com/eric/tools/css/reset/reset.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-adapt.css">
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="wrapper">
-        <nav class="header__wrapper">
-          <ul class="nav__block">
-            <li class="nav__item">
-              <a class="nav__link" href="#about">About </a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#skills">Skills </a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#projects">Projects </a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#contacts">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <section id="about">
-        <div class="wrapper">
-          <div class="about__wrapper">
-              <img
-                class="picture__myPhoto"
-                src="photo_circle.png"
-                alt="Ilya Atrakhimenok photo"
-                title="Ilya Atrakhimenok photo"
-              >
-            <div class="about__summary">
-              <h1 class="summary__head">Hi There!</h1>
-              <h3 class="summary__underHead">A bit information about me)</h3>
-              <p class="summary__text">
-                I'm Ilya and I'm a begginer front-end developer.<br />
-                Currently I'm a student at Polotsk State University.<br />
-                In my opinion I have such qualities as self-motivation,
-                responsibility<br />
-                and communicatness. That's all will help me to become a
-                professional software developer.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="skills">
-        <div class="wrapper">
-          <div class="skills__wrapper">
-            <h2 class="skills__head">SKILLS</h2>
-            <ul class="skills__block">
-              <li class="skills__item">
-                C++ <span class="crcl act"></span><span class="crcl act"></span
-                ><span class="crcl"> </span><span class="crcl"></span
-                ><span class="crcl"></span>
+        <div class="card header-card">
+          <img
+            class="header__photo"
+            src="imgs/photo_circle.png"
+            alt="Ilya Atrakhimenok"
+            title="Ilya Atrakhimenok"
+          />
+          <h1 class="title header__title">
+            Junior Front-end developer<br />
+            Ilya Atrakhimenok
+          </h1>
+          <nav class="header__nav">
+            <ul class="header__contacts">
+              <li class="header__item text">Telegram: ilya24by</li>
+              <li class="header__item text">
+                GitHub:<a
+                  class="header__link"
+                  href="https://github.com/ilyaAtrakhimenok"
+                >
+                  ilyaAtrakhimenok</a
+                >
               </li>
-              <li class="skills__item">
-                JavaScript <span class="crcl act"></span
-                ><span class="crcl"></span><span class="crcl"> </span
-                ><span class="crcl"></span><span class="crcl"></span>
+              <li class="header__item text">
+                LinkedIn:
+                <a
+                  href="https://www.linkedin.com/in/ilya-atrakhimenok-6a1324214/"
+                  class="header__link"
+                >
+                  Ilya Atrakhimenok</a
+                >
               </li>
-              <li class="skills__item">
-                HTML & CSS <span class="crcl act"></span
-                ><span class="crcl act"></span><span class="crcl act"> </span
-                ><span class="crcl"></span><span class="crcl"></span>
-              </li>
-              <li class="skills__item">
-                Bootstrap <span class="crcl act"></span
-                ><span class="crcl"></span><span class="crcl"> </span
-                ><span class="crcl"></span><span class="crcl"></span>
-              </li>
-              <li class="skills__item">
-                English<span class="crcl act"></span
-                ><span class="crcl act"></span><span class="crcl act"> </span
-                ><span class="crcl"></span
-                ><span class="crcl"></span> B1(intermediate)
+              <li class="header__item text">
+                CodeWars:
+                <a
+                  href="https://www.codewars.com/users/ilyaAtrakhimenok/"
+                  class="header__link"
+                >
+                ilyaAtrakhimenok</a
+                >
               </li>
             </ul>
-          </div>
+          </nav>
+          <button id="dwnl-cv">Download </button>
         </div>
-      </section>
-
-      <section id="projects">
-        <div class="wrapper">
-          <h2 class="projects__head">My simple projects</h2>
-          <div class="projects__wrapper">
-            <div class="project">
-              <h3 class="project__name">Hotel Giant</h3>
-                <ul class="tech__blog">
-                  <li class="tech__item">HTML</li>
-                  <li class="tech__item">CSS</li>
-                  <li class="tech__item">Grid layout</li>
-                </ul>
-              <a href="https://hotelgiant.netlify.app">
-                <img class="progect__picture" src="hotel.PNG" alt="Hotel Giant picture" title="Hotel Giant picture">
-              </a>
-            </div>
-            <div class="project">
-              <h3 class="project__name">Personal WebPage</h3>
-                <ul class="tech__blog">
-                  <li class="tech__item">HTML</li>
-                  <li class="tech__item">CSS</li>
-                  <li class="tech__item">Bootstrap</li>
-                </ul>
-              <a href="https://atrakhimenok.netlify.app">
-                <img class="progect__picture" src="webpage.PNG" alt="Personal WebPage picture" title="Personal WebPage picture">
-                </a>
-            </div>
-            <div class="project">
-              <h3 class="project__name">PiperNet</h3>
-                <ul class="tech__blog">
-                  <li class="tech__item">HTML</li>
-                  <li class="tech__item">CSS</li>
-                  <li class="tech__item">Flexbox</li>
-                </ul>
-              <a href="https://piedpipercoinweb.netlify.app">
-                <img class="progect__picture" src="piper.PNG" alt="PiperNet picture" title="PiperNet picture">
-                </a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer id="contacts">
-      <div class="wrapper">
-        <div class="footer__wrapper">
-         <ul class="footer__block">
-           <li class="footer__link"><a href="https://web.telegram.org/#/im?p=@ilya24by"><img src="https://img.icons8.com/material-outlined/24/000000/telegram-app.png" alt="telegram: ilya24by"/></a></li>
-           <li class="footer__link"><a href="https://www.linkedin.com/in/ilya-atrakhimenok-6a1324214/"><img src="https://img.icons8.com/material-outlined/24/000000/linkedin.png" alt="linkedin: Ilya Atrakhimenok"/></a></li>
-           <li class="footer__link"><a href="https://github.com/ilyaAtrakhimenok"><img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt="github: ilyaAtrakhimenok"/></a></li>
-         </ul>
-         <a class="footer__link" href="https://rs.school/js/"><img class="rsschool" src="https://rs.school/images/rs_school_js.svg" alt="rsscshool"></a>
-        </div>
-        <p class="footer__text">Created by Ilya Atrakhimenok.<br> 2021.</p>
       </div>
-    </footer>
+    </header>
+    <main class="main">
+      <div class="wrapper">
+        <section class="about card">
+          <h2 class="title">About</h2>
+          <p class="about__info text">
+            You are welcome!<br />
+            My name Ilya. Currently I'm learning web development.<br />
+            I find it enthralling.<br />
+            I have such qualities as resposibility, critical thinking,
+            communicability<br />
+            and I have a greate desire to learn new!
+          </p>
+        </section>
+        <section class="skills card">
+          <h2 class="title">Skills</h2>
+          <div class="skills__col">
+            <nav class="skills__nav">
+              <li class="skills__item"><i class="fab fa-html5"></i>HTML<i class="fas fa-check"></i><i class="fas fa-check"></i><i class="fas fa-check"></i></li>
+              <li class="skills__item"><i class="fab fa-css3-alt"></i>CSS<i class="fas fa-check"></i><i class="fas fa-check"></i><i class="fas fa-check"></i></li>
+              <li class="skills__item">
+                <i class="fab fa-bootstrap"></i>Bootstrap<i class="fas fa-check"></i>
+              </li>
+            </nav>
+            <nav class="skills__nav">
+              <li class="skills__item"><i class="fab fa-js"></i>Vanilla JS<i class="fas fa-check"></i><i class="fas fa-check"></i></li>
+              <li class="skills__item"><i class="fas fa-cog"></i>C++<i class="fas fa-check"></i></li>
+              <li class="skills__item">
+                <i class="fab fa-github-alt"></i>GIT/GITHub<i class="fas fa-check"></i>
+              </li>
+            </nav>
+          </div>
+        </section>
+        <section class="expirience card">
+          <h2 class="title">Expirience</h2> 
+          <h3 class="subtitle">Сertificates</h3>
+          <div class="exp__сertificates">
+            <div class="exp__сer-item">
+                <img class="exp__img" src="imgs/cerHTML.PNG" alt="certificate HTML CSS" title="certificate HTML CSS">
+            </div>
+            <div class="exp__сer-item">
+              <img class="exp__img" src="imgs/cerC.PNG" alt="certificate C++" title="certificate C++">
+            </div>
+          </div>
+        </section>
+        <section class="education card">
+          <h2 class="title">Education</h2>
+          <p class="text">Student at Polotsk State University (Belarus):<br>Faculty of Information Technologies, third year of degree.</p>
+          <p class="text">Nowadays taking courses from RSschool:<br>Front-end development: stage#1.</p>
+        </section>
+        <section class="english card">
+          <h2 class="title">English</h2>
+          <p class="text">I have been learning English with tutor for 2 years.<br>
+          </p>
+          <img class="eng__img" src="imgs/eng.PNG" alt="English" title="English">
+        </section>
+      </div>
+    </main>
   </body>
 </html>
