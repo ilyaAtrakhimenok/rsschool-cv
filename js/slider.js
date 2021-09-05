@@ -3,14 +3,6 @@ let dots = document.querySelectorAll(".slider-dot");
 let leftArrow = document.querySelector(".left-arrow");
 let rightArrow = document.querySelector(".right-arrow");
 hideSliders(findActiveIndex(sliders, "active"));
-function findActiveIndex(arr, classActive) {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i].classList.contains(classActive)) {
-      return i;
-    }
-  }
-}
-
 function moveNext() {
   let activeIndex = findActiveIndex(sliders, "active");
 
@@ -49,7 +41,6 @@ function movePrev() {
     hideSliders(activeIndex - 1);
   }
 }
-
 function changeActiveElement(elem) {
   let activeIndex = findActiveIndex(dots, "active-dot");
   dots[activeIndex].classList.remove("active-dot");
@@ -60,14 +51,21 @@ function changeActiveElement(elem) {
   sliders[activeIndex].classList.add("active");
   hideSliders(activeIndex);
 }
-function hideSliders(activeIndex) {
-    for (let i = 0; i < sliders.length; i++) {
-        if (i != activeIndex) {
-          sliders[i].style.display = "none";
-        } else {
-          sliders[i].style.display = "block";
-        }
-      }
+function findActiveIndex(arr, classActive) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].classList.contains(classActive)) {
+      return i;
+    }
   }
+}
+function hideSliders(activeIndex) {
+  for (let i = 0; i < sliders.length; i++) {
+    if (i != activeIndex) {
+      sliders[i].style.display = "none";
+    } else {
+      sliders[i].style.display = "block";
+    }
+  }
+}
 rightArrow.addEventListener("click", moveNext);
 leftArrow.addEventListener("click", movePrev);

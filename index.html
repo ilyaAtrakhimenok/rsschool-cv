@@ -14,9 +14,9 @@
       href="https://meyerweb.com/eric/tools/css/reset/reset.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/slider.css">
-    <link rel="stylesheet" href="css/modal.css">
-    <link rel="stylesheet" href="css/style-adapt.css">
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/style-adapt.css" />
   </head>
   <body>
     <header class="header">
@@ -35,7 +35,9 @@
           <nav class="header__nav">
             <ul class="header__contacts">
               <li class="header__item text">Telegram: ilya24by</li>
-              <li class="header__item text">Email: atrakhimenok24by@gmail.ru</li>
+              <li class="header__item text">
+                Email: atrakhimenok24by@gmail.ru
+              </li>
               <li class="header__item text">
                 GitHub:<a
                   class="header__link"
@@ -59,131 +61,235 @@
                   href="https://www.codewars.com/users/ilyaAtrakhimenok/"
                   class="header__link"
                 >
-                ilyaAtrakhimenok</a
+                  ilyaAtrakhimenok</a
                 >
               </li>
             </ul>
           </nav>
-          <a id="dwnl-cv" class="dwnl-btn" href="cv.pdf" download>Download PDF</a>
+          <a id="dwnl-cv" class="dwnl-btn" href="cv.pdf" download
+            >Download PDF</a
+          >
         </div>
       </div>
+      <footer class="footer">
+        <p>2021.</p>
+        <a href="https://github.com/ilyaAtrakhimenok">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://rs.school/js/">
+          <img
+            src="https://rs.school/images/rs_school_js.svg"
+            alt="rsschool"
+            class="rss"
+        /></a>
+      </footer>
     </header>
     <main class="main">
-        <section class="about card">
-          <div class="wrapper">
-            <h2 class="title">About</h2>
-            <p class="about__info text">
-              You are welcome!<br />
-              My name Ilya. I'm 19. Currently learning web development.<br />
-              I find it enthralling.<br />
-              I have such qualities as resposibility, critical thinking,
-              communicability<br />
-              and I have a greate desire to learn new!
-            </p>
+      <section class="about card">
+        <div class="wrapper">
+          <h2 class="title">About</h2>
+          <p class="about__info text">
+            You are welcome!<br />
+            My name Ilya. I'm 19. Currently learning web development.<br />
+            I find it enthralling.<br />
+            I have such qualities as resposibility, critical thinking,
+            communicability<br />
+            and I have a greate desire to learn new!
+          </p>
+        </div>
+      </section>
+      <section class="skills card">
+        <div class="wrapper">
+          <h2 class="title">Skills</h2>
+          <div class="skills__nav">
+            <ul class="skills__col">
+              <li class="skills__item">
+                <i class="fab fa-html5"></i>HTML<i class="fas fa-check"></i
+                ><i class="fas fa-check"></i><i class="fas fa-check"></i>
+              </li>
+              <li class="skills__item">
+                <i class="fab fa-css3-alt"></i>CSS<i class="fas fa-check"></i
+                ><i class="fas fa-check"></i><i class="fas fa-check"></i>
+              </li>
+              <li class="skills__item">
+                <i class="fab fa-bootstrap"></i>Bootstrap<i
+                  class="fas fa-check"
+                ></i>
+              </li>
+            </ul>
+            <ul class="skills__col">
+              <li class="skills__item">
+                <i class="fab fa-js"></i>Vanilla JS<i class="fas fa-check"></i
+                ><i class="fas fa-check"></i>
+              </li>
+              <li class="skills__item">
+                <i class="fas fa-cog"></i>C++<i class="fas fa-check"></i>
+              </li>
+              <li class="skills__item">
+                <i class="fab fa-github-alt"></i>GIT/GITHub<i
+                  class="fas fa-check"
+                ></i>
+              </li>
+            </ul>
           </div>
-        </section>
-        <section class="skills card">
-          <div class="wrapper">
-            <h2 class="title">Skills</h2>
-            <div class="skills__nav">
-                <ul class="skills__col">
-                  <li class="skills__item"><i class="fab fa-html5"></i>HTML<i class="fas fa-check"></i><i class="fas fa-check"></i><i class="fas fa-check"></i></li>
-                  <li class="skills__item"><i class="fab fa-css3-alt"></i>CSS<i class="fas fa-check"></i><i class="fas fa-check"></i><i class="fas fa-check"></i></li>
-                  <li class="skills__item">
-                    <i class="fab fa-bootstrap"></i>Bootstrap<i class="fas fa-check"></i>
-                </li>
-              </ul>
-                <ul  class="skills__col">
-                  <li class="skills__item"><i class="fab fa-js"></i>Vanilla JS<i class="fas fa-check"></i><i class="fas fa-check"></i></li>
-                  <li class="skills__item"><i class="fas fa-cog"></i>C++<i class="fas fa-check"></i></li>
-                  <li class="skills__item">
-                    <i class="fab fa-github-alt"></i>GIT/GITHub<i class="fas fa-check"></i>
-                </li>
-              </ul>
+        </div>
+      </section>
+      <section class="expirience card">
+        <div class="wrapper">
+          <h2 class="title">Expirience</h2>
+          <h3 class="subtitle">Сertificates</h3>
+          <div class="exp__сertificates">
+            <div class="exp__сer-item">
+              <img
+                class="exp__img"
+                src="imgs/cerHTML.PNG"
+                alt="certificate HTML CSS"
+                title="certificate HTML CSS"
+                onclick="zoomImg(this)"
+              />
+            </div>
+            <div class="exp__сer-item">
+              <img
+                class="exp__img"
+                src="imgs/cerC.PNG"
+                alt="certificate C++"
+                title="certificate C++"
+                onclick="zoomImg(this)"
+              />
             </div>
           </div>
-        </section>
-        <section class="expirience card">
-          <div class="wrapper">
-            <h2 class="title">Expirience</h2> 
-            <h3 class="subtitle">Сertificates</h3>
-            <div class="exp__сertificates">
-              <div class="exp__сer-item">
-                  <img class="exp__img" src="imgs/cerHTML.PNG" alt="certificate HTML CSS" title="certificate HTML CSS" onclick="zoomImg(this)">
+        </div>
+        <div id="modal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="modal-img" src="#" alt="modal" />
+        </div>
+      </section>
+      <section class="projects card">
+        <div class="wrapper">
+          <h2 class="title">Projects</h2>
+          <div class="slider">
+            <div class="slider-content">
+              <button class="left-arrow">«</button>
+              <div class="item">
+                <a class="proj__link" href="https://hotelgiant.netlify.app/">
+                  <img
+                    class="item-img"
+                    src="imgs/hotel.PNG"
+                    alt="hotel"
+                    title="hotel"
+                  />
+                </a>
               </div>
-              <div class="exp__сer-item">
-                <img class="exp__img" src="imgs/cerC.PNG" alt="certificate C++" title="certificate C++" onclick="zoomImg(this)">
+              <div class="item active">
+                <a
+                  class="proj__link"
+                  href="https://rolling-scopes-school.github.io/ilyaatrakhimenok-JSFEPRESCHOOL/museum1/"
+                >
+                  <img
+                    class="item-img"
+                    src="imgs/museum.PNG"
+                    alt="museum"
+                    title="museum"
+                  />
+                </a>
               </div>
+              <div class="item">
+                <a
+                  class="proj__link"
+                  href="https://piedpipercoinweb.netlify.app"
+                >
+                  <img
+                    class="item-img"
+                    src="imgs/piper.PNG"
+                    alt="piper"
+                    title="piper"
+                  />
+                </a>
+              </div>
+              <div class="item">
+                <a
+                  class="proj__link"
+                  href="https://ilyaatrakhimenok-customvideoplayer.netlify.app"
+                >
+                  <img
+                    class="item-img"
+                    src="imgs/player.PNG"
+                    alt="player"
+                    title="player"
+                  />
+                </a>
+              </div>
+              <div class="item active">
+                <a
+                  class="proj__link"
+                  href="https://rolling-scopes-school.github.io/ilyaatrakhimenok-JSFEPRESCHOOL/museum1/"
+                >
+                  <img
+                    class="item-img"
+                    src="imgs/museum.PNG"
+                    alt="museum"
+                    title="museum"
+                  />
+                </a>
+              </div>
+              <button class="right-arrow">»</button>
             </div>
-          </div>
-          <div id="modal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="modal-img" src="#" alt="modal">
-          </div>
-        </section>
-        <section class="projects card">
-          <div class="wrapper">
-            <h2 class="title">Projects</h2>
-            <div class="slider">
-              <div class="slider-content">
-                <button class="left-arrow">«</button>
-                <div class="item">
-                  <a  class="proj__link" href="https://hotelgiant.netlify.app/">
-                    <img class = "item-img" src="imgs/hotel.PNG" alt="hotel" title="hotel">
-                  </a>
-                </div>
-                <div class="item active">
-                      <a  class="proj__link" href="https://rolling-scopes-school.github.io/ilyaatrakhimenok-JSFEPRESCHOOL/museum1/">
-                        <img class = "item-img" src="imgs/museum.PNG" alt="museum" title="museum" >
-                     </a>
-                  </div>
-                <div class="item">
-                     <a  class="proj__link" href="https://piedpipercoinweb.netlify.app">
-                       <img class = "item-img" src="imgs/piper.PNG" alt="piper" title="piper" >
-                     </a>
-                </div>
-                <div class="item">
-                  <a  class="proj__link" href="https://ilyaatrakhimenok-customvideoplayer.netlify.app">
-                      <img class = "item-img" src="imgs/player.PNG" alt="player" title="player" >
-                  </a>  
-                </div>
-                <div class="item active">
-                  <a  class="proj__link" href="https://rolling-scopes-school.github.io/ilyaatrakhimenok-JSFEPRESCHOOL/museum1/">
-                    <img class = "item-img" src="imgs/museum.PNG" alt="museum" title="museum" >
-                 </a>
-                </div>
-                <button class="right-arrow">»</button>
-              </div>
-        
-              <div class="slider-nav">
-                <div class="slider-nav__container">
-                  
-                  <button class="slider-dot " onclick="changeActiveElement(this)"></button>
-                  <button class="slider-dot active-dot" onclick="changeActiveElement(this)"></button>
-                  <button class="slider-dot" onclick="changeActiveElement(this)"></button>
-                  <button class="slider-dot" onclick="changeActiveElement(this)"></button>
-                  <button class="slider-dot" onclick="changeActiveElement(this)"></button>
 
-                </div>
+            <div class="slider-nav">
+              <div class="slider-nav__container">
+                <button
+                  class="slider-dot"
+                  onclick="changeActiveElement(this)"
+                ></button>
+                <button
+                  class="slider-dot active-dot"
+                  onclick="changeActiveElement(this)"
+                ></button>
+                <button
+                  class="slider-dot"
+                  onclick="changeActiveElement(this)"
+                ></button>
+                <button
+                  class="slider-dot"
+                  onclick="changeActiveElement(this)"
+                ></button>
+                <button
+                  class="slider-dot"
+                  onclick="changeActiveElement(this)"
+                ></button>
               </div>
             </div>
           </div>
-        </section>
-        <section class="education card">
-          <div class="wrapper">
-            <h2 class="title">Education</h2>
-            <p class="text">Student at Polotsk State University (Belarus):<br>Faculty of Information Technologies, third year of degree.</p>
-            <p class="text">Nowadays taking courses from RSschool:<br>Front-end development: stage#1.</p>
-          </div>
-        </section>
-        <section class="english card">
-          <div class="wrapper">
-            <h2 class="title">English</h2>
-            <p class="text">I've been learning English with tutor for 2 years.<br>
-            </p>
-            <img class="eng__img" src="imgs/eng.PNG" alt="English" title="English" onclick="zoomImg(this)">
-          </div>
-        </section>
+        </div>
+      </section>
+      <section class="education card">
+        <div class="wrapper">
+          <h2 class="title">Education</h2>
+          <p class="text">
+            Student at Polotsk State University (Belarus):<br />Faculty of
+            Information Technologies, third year of degree.
+          </p>
+          <p class="text">
+            Nowadays taking courses from RSschool:<br />Front-end development:
+            stage#1.
+          </p>
+        </div>
+      </section>
+      <section class="english card">
+        <div class="wrapper">
+          <h2 class="title">English</h2>
+          <p class="text">
+            I've been learning English with tutor for 2 years.<br />
+          </p>
+          <img
+            class="eng__img"
+            src="imgs/eng.PNG"
+            alt="English"
+            title="English"
+            onclick="zoomImg(this)"
+          />
+        </div>
+      </section>
     </main>
     <script src="js/app.js" async></script>
     <script src="js/slider.js" async></script>
