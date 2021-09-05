@@ -157,9 +157,8 @@ main .title:after {
   height: 400px;
 }
 .footer {
-  position: absolute;
-  bottom:14px;
-  right:62px;
+  position: fixed;
+  left:-80%;
   display: flex;
   justify-content: center;
   align-items: center;
