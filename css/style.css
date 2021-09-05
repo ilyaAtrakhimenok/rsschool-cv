@@ -5,17 +5,16 @@ body {
   height: 100vh;
   background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
 }
-.header,
-.footer {
-  width: 30%;
+.header {
   position: fixed;
   right: 65%;
   top: 12%;
+  width: 30%;
 }
 .main {
-  width: 65%;
   position: absolute;
   left: 35%;
+  width: 65%;
 }
 @media (max-width: 1340px) {
   .header {
@@ -25,8 +24,8 @@ body {
 .card {
   position: relative;
   padding: 15px 7px 20px 15px;
-  border-radius: 10px;
   margin: 20px;
+  border-radius: 10px;
   background-color: rgb(245, 237, 226);
   box-shadow: 7px 5px 7px gray;
 }
@@ -59,8 +58,8 @@ body {
   font-weight: bold;
 }
 main .title:after {
-  display: block;
   content: "";
+  display: block;
   height: 5px;
   width: 95%;
   border-radius: 5px;
@@ -95,14 +94,14 @@ main .title:after {
 }
 
 .dwnl-btn:active {
-  transform: scale(0.97);
   box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.24);
+  transform: scale(0.97);
 }
 .text {
+  margin-bottom: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 24px;
   font-size: 20px;
-  margin-bottom: 10px;
 }
 .skills__col {
   list-style: none;
@@ -113,11 +112,11 @@ main .title:after {
   justify-content: center;
 }
 .skills__item {
-  font-family: sans-serif;
-  font-size: 18px;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  font-family: sans-serif;
+  font-size: 18px;
 }
 .fab,
 .fas {
@@ -153,7 +152,35 @@ main .title:after {
   cursor: zoom-in;
 }
 .eng__img {
-  cursor:zoom-in;
+  cursor: zoom-in;
   width: 100%;
   height: 400px;
+}
+.footer {
+  position: absolute;
+  bottom:14px;
+  right:62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rss{
+  width: 30px;
+  height: 30px;
+}
+.fa-github{
+  color:black;
+  font-size: 20px;
+  margin-right: 0px;
+}
+@media(max-width:1700px){
+  .footer {
+    bottom:14px;
+    right:40px;
+  }
+}
+@media(min-width:2000px){
+  .footer {
+    display: none;
+  }
 }
