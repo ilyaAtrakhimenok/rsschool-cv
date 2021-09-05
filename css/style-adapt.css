@@ -1,0 +1,97 @@
+@media (max-width: 1024px) {
+  .header,
+  .main {
+    position: static;
+    width: 100%;
+  }
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .card {
+    max-width: 100% !important;
+  }
+}
+@media (max-width: 800px) {
+  .item-img {
+    width: 500px;
+    height: 250px;
+  }
+}
+@media (max-width: 660px) {
+  .item-img {
+    width: 400px;
+    height: 200px;
+  }
+}
+@media (max-width: 500px) {
+  .header__photo {
+    display: none;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .header__title {
+    line-height: 24px;
+  }
+  .text {
+    line-height: 16px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  main .title:after {
+    height: 3px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .skills__item {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .fab,
+  .fas {
+    margin-right: 15px;
+    color: rgb(158, 158, 238);
+    font-size: 30px;
+  }
+  .fa-check {
+    margin-right: 0px;
+    margin-left: 5px;
+    font-size: 10px;
+  }
+  .subtitle {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .item-img {
+    width: 280px;
+    height: 140px;
+  }
+  .left-arrow,
+  .right-arrow {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+  }
+  .slider-nav{
+    display: none;
+  }
+  .exp__сertificates {
+    display: block;
+  }
+  .exp__img {
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 90%;
+  }
+  .eng__img {
+    width: 100%;
+    height: 100px;
+  }
+}
+@media (max-width: 400px) {
+  .item-img {
+    width: 200px;
+    height: 110px;
+  }
+}
