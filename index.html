@@ -29,7 +29,7 @@
             title="Ilya Atrakhimenok"
           />
           <h1 class="title header__title">
-            Junior Front-end developer<br />
+            Front-end developer<br />
             Ilya Atrakhimenok
           </h1>
           <nav class="header__nav">
@@ -111,7 +111,7 @@
                 ><i class="fas fa-check"></i>
               </li>
               <li class="skills__item">
-                <i class="fas fa-cog"></i>C++<i class="fas fa-check"></i>
+                <i class="fab fa-sass"></i>SCSS<i class="fas fa-check"></i>
               </li>
               <li class="skills__item">
                 <i class="fab fa-github-alt"></i>GIT/GITHub<i
@@ -157,94 +157,37 @@
           <h2 class="title">Projects</h2>
           <div class="slider">
             <div class="slider-content">
-              <button class="left-arrow">«</button>
-              <div class="item">
-                <a class="proj__link" href="https://hotelgiant.netlify.app/">
-                  <img
-                    class="item-img"
-                    src="imgs/hotel.PNG"
-                    alt="hotel"
-                    title="hotel"
-                  />
-                </a>
+              <div class="project__museum">
+                <h2 class= "project__header">
+                  Museum Louvre
+                </h2>
+                <p class="project__description">
+                  Adaptive web site of famouse museum in Paris - The Louvre.
+                  <a href="https://github.com/ilyaAtrakhimenok/Louvre" class="project__link" target="_blank">Link</a>
+                  <ul class="project__list">
+                    Used technologies:
+                    <li class="project__item">HTML</li>
+                    <li class="project__item">SCSS</li>
+                    <li class="project__item">JavaScript</li>
+                    <li class="project__item">mapbox.api</li>
+                    <li class="project__item">swiper.js</li>
+                  </ul>
+                </p>
               </div>
-              <div class="item active">
-                <a
-                  class="proj__link"
-                  href="https://rolling-scopes-school.github.io/ilyaatrakhimenok-JSFEPRESCHOOL/museum1/"
-                >
-                  <img
-                    class="item-img"
-                    src="imgs/museum.PNG"
-                    alt="museum"
-                    title="museum"
-                  />
-                </a>
-              </div>
-              <div class="item">
-                <a
-                  class="proj__link"
-                  href="https://piedpipercoinweb.netlify.app"
-                >
-                  <img
-                    class="item-img"
-                    src="imgs/piper.PNG"
-                    alt="piper"
-                    title="piper"
-                  />
-                </a>
-              </div>
-              <div class="item">
-                <a
-                  class="proj__link"
-                  href="https://ilyaatrakhimenok-customvideoplayer.netlify.app"
-                >
-                  <img
-                    class="item-img"
-                    src="imgs/player.PNG"
-                    alt="player"
-                    title="player"
-                  />
-                </a>
-              </div>
-              <div class="item active">
-                <a
-                  class="proj__link"
-                  href="https://rolling-scopes-school.github.io/ilyaatrakhimenok-JSFEPRESCHOOL/museum1/"
-                >
-                  <img
-                    class="item-img"
-                    src="imgs/museum.PNG"
-                    alt="museum"
-                    title="museum"
-                  />
-                </a>
-              </div>
-              <button class="right-arrow">»</button>
-            </div>
-
-            <div class="slider-nav">
-              <div class="slider-nav__container">
-                <button
-                  class="slider-dot"
-                  onclick="changeActiveElement(this)"
-                ></button>
-                <button
-                  class="slider-dot active-dot"
-                  onclick="changeActiveElement(this)"
-                ></button>
-                <button
-                  class="slider-dot"
-                  onclick="changeActiveElement(this)"
-                ></button>
-                <button
-                  class="slider-dot"
-                  onclick="changeActiveElement(this)"
-                ></button>
-                <button
-                  class="slider-dot"
-                  onclick="changeActiveElement(this)"
-                ></button>
+              <div class="project__slider">
+                <h2 class= "project__header">
+                  Vertical-slider
+                </h2>
+                <p class="project__description">
+                  Responsive vertical-slider.
+                  <a href="https://github.com/ilyaAtrakhimenok/vertical-slider" class="project__link" target="_blank">Link</a>
+                  <ul class="project__list">
+                    Used technologies:
+                    <li class="project__item">HTML</li>
+                    <li class="project__item">CSS</li>
+                    <li class="project__item">JavaScript</li>
+                  </ul>
+                </p>
               </div>
             </div>
           </div>
@@ -279,18 +222,6 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <p>2021.</p>
-      <a href="https://github.com/ilyaAtrakhimenok">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="https://rs.school/js/">
-        <img
-          src="https://rs.school/images/rs_school_js.svg"
-          alt="rsschool"
-          class="rss"
-      /></a>
-    </footer>
     <script src="js/app.js" async></script>
     <script src="js/slider.js" async></script>
   </body>

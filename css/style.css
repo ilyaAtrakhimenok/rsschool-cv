@@ -156,30 +156,25 @@ main .title:after {
   width: 100%;
   height: 400px;
 }
-.footer {
-  position: fixed;
-  left:-80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.project__header {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
-.rss{
-  width: 30px;
-  height: 30px;
-}
-.fa-github{
-  color:black;
+.project__museum, .project__slider {
+  margin-bottom: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 24px;
   font-size: 20px;
-  margin-right: 0px;
+  margin-bottom: 20px;
 }
-@media(max-width:1700px){
-  .footer {
-    bottom:14px;
-    right:40px;
-  }
+.project__museum{
+  margin-bottom:30px;
 }
-@media(min-width:2000px){
-  .footer {
-    display: none;
-  }
+.project__list{
+  list-style:inside;
+  padding-left:20px;
+  margin-top:20px;
+}
+.project__item{
+  margin-top:5px;
 }

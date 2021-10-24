@@ -16,25 +16,47 @@ I have such qualities as resposibility, critical thinking,
 communicability and I have a greate desire to learn new!
 
 ## Skills
-- HTML.
-- CSS.
-- Bootstrap.
-- JavaScript.
-- C++.
-- GIT/GitHub.
+- HTML. 
+- CSS. 
+- SCSS.  
+- Bootstrap. 
+- JavaScript. 
+- GIT/GitHub. 
+
 
 ## Projects
 
-[Museum](https://rolling-scopes-school.github.io/ilyaatrakhimenok-JSFEPRESCHOOL/museum1/) (HTML/CSS/JS).    
-[Hotel Giant](https://hotelgiant.netlify.app/) (HTML/CSS/Bootstrap).      
-[Video Player](https://ilyaatrakhimenok-customvideoplayer.netlify.app) (HTML/CSS/JS).     
-[PeidPiper](https://piedpipercoinweb.netlify.app) (HTML/CSS).
+### Museum Louvre
+
+ Adaptive web-site of famouse museum in Paris - The Louvre.  [https://github.com/ilyaAtrakhimenok/Louvre](https://github.com/ilyaAtrakhimenok/Louvre)
+
+
+
+  Used technologies:
+
+  - HTML   
+  - SCSS   
+  - JS   
+  - mapbox.api   
+  - swiper.js   
+
+### Vertical slider
+
+  Responsive vertical slider.
+   [https://github.com/ilyaAtrakhimenok/vertical-slider](https://github.com/ilyaAtrakhimenok/vertical-slider)
+
+  Used technologies:
+
+  - HTML  
+  - SCSS  
+  - JS  
+
 
 ## Experience
 
 - C++ course on stepic.org from yandex.
 - Web for begginers course on stepic.org.
-- Stage#0 from RSschool(epam). Currently stage#1.
+- Stage#0 from RSschool. Currently stage#1.
 
 
 ## Education
@@ -43,5 +65,4 @@ Student at Polotsk State University. Faculty of information technologies. Third 
 
 ## English
 I've been learning english with tutor for 2 years.
-B1(intermediate).
 
